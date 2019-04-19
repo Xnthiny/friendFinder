@@ -246,7 +246,7 @@
             ]
           }
 
-          $.post("/api/friends", userData, function(data) {
+          $.post("https://friendfinder-js.herokuapp.com/api/friends", userData, function(data) {
             let matchStatus = data.matchFound
             if (matchStatus === true) {
               $('<h5 class="modal-title">Match found!</h5>').appendTo("div.match-found");
