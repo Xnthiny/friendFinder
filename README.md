@@ -15,9 +15,9 @@ https://friendfinder-js.herokuapp.com/
 
 ## Installation
 
-git clone https://github.com/Xnthiny/friendFinder.git
-cd friendFinder
-npm install
+    git clone https://github.com/Xnthiny/friendFinder.git
+    cd friendFinder
+    npm install
 
 ## Technologies Used
 - Node.js
