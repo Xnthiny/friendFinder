@@ -194,7 +194,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" id="close-btn" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <a href='http://localhost:8080/survey'><button type="button" id="new-survey-btn" class="btn btn-primary">New Survey</button></a>
+            <a href='https://friendfinder-js.herokuapp.com/survey'><button type="button" id="new-survey-btn" class="btn btn-primary">New Survey</button></a>
           </div>
         </div>
       </div>
@@ -246,7 +246,7 @@
             ]
           }
 
-          $.post("https://friendfinder-js.herokuapp.com/api/friends", userData, function(data) {
+          $.post("/api/friends", userData, function(data) {
             let matchStatus = data.matchFound
             if (matchStatus === true) {
               $('<h5 class="modal-title">Match found!</h5>').appendTo("div.match-found");
