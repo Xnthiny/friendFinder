@@ -2,13 +2,6 @@
 
 A simple survey to find your new best friend.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Support](#support)
-- [Contributing](#contributing)
-
 ## Demo
 
 https://friendfinder-js.herokuapp.com/
