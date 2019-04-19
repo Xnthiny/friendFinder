@@ -1,6 +1,6 @@
 # FriendFinder.js
 
-A simple survey and you'll find a new best friend.
+A simple survey to find your new best friend.
 
 ## Table of Contents
 
